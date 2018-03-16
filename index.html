@@ -1,18 +1,21 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <title>Blockchain File Certification</title>
+  <title>Enterprise Document Validation</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-
+  <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
 <body>
   <div class="container">
     <div class="row">
       <div class="col-xs-12" style="height:25px;"></div>
     </div>
     <div class="row">
-      <div class="col-sm">
+      <div class="col-sm"><center>
+        <font style="font-family: 'Rammetto One', cursive;" size="25">Enterprise Document Validation</font>
+        <br/><br/><br/>
+        
         <div class="form-group">
           <label class="custom-file">
             <input type="file" id="hashFile" class="custom-file-input">
@@ -21,10 +24,10 @@
         </div>
         <div class="form-group">
           <button type='button' id="sendHashButton" onclick="send()" class="btn btn-primary"/>
-            Fingerprint to Blockchain
+            Issue Document to Blockchain
           </button>
           <button type='button' id= "findHashButton" onclick="find()" class="btn btn-primary"/>
-            Find on Blockchain
+            Verify Document on Blockchain
           </button>
         </div>
           <div id=responseText></div>
